@@ -32,7 +32,7 @@ function InfoUserSaldo() {
             src={
               profile &&
               profile.profilePicture &&
-              profile.profilePicture === "No Picture"
+              profile.profilePicture !== "https://minio.nutech-integrasi.com/take-home-test/null"
                 ? profile.profilePicture
                 : ProfilePicture
             }
