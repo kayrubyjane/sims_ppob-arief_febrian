@@ -105,7 +105,7 @@ function AccountPage() {
             src={
               profile &&
               profile.profilePicture &&
-              profile.profilePicture === "No Picture"
+              profile.profilePicture !== "https://minio.nutech-integrasi.com/take-home-test/null"
                 ? profilePicture
                 : ProfilePicture
             }
